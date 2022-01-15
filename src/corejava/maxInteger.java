@@ -1,8 +1,8 @@
 package corejava;
 public class maxInteger {
-    public void checkMax(int a,int b, int c)
+    public void checkMax(float a,float b, float c)
     {
-        int max=a;
+        float max=a;
         if(b>max)
         {
             max=b;

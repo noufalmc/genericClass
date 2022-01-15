@@ -7,11 +7,11 @@ public class genericMain {
   {
       maxInteger mi=new maxInteger();
       Scanner sc=new Scanner(System.in);
-      int a,b,c;
+      float a,b,c;
       System.out.println("Enter the  A and B,C");
-      a=sc.nextInt();
-      b=sc.nextInt();
-      c=sc.nextInt();
+      a=sc.nextFloat();
+      b=sc.nextFloat();
+      c=sc.nextFloat();
       mi.checkMax(a,b,c);
   }
 }
