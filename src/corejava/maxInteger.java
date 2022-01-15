@@ -1,13 +1,13 @@
 package corejava;
 public class maxInteger {
-    public void checkMax(float a,float b, float c)
+    public void checkMax(String a,String b,String c)
     {
-        float max=a;
-        if(b>max)
+        String max=a;
+        if(b.length()>max.length())
         {
             max=b;
         }
-        if(c>max)
+        if(c.length()>max.length())
         {
             max=c;
         }
